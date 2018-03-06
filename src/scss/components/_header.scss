@@ -1,0 +1,30 @@
+.web-header {
+    display:flex;
+    box-sizing: border-box;
+    background: fade-out($color-grastur, 0.15);
+    color: $color-silver;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    
+
+    transition: background 0.2s;
+
+    &:hover {
+        background: $color-grastur;
+    }
+
+    .web-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-large;
+
+    }
+
+    .serch{
+        justify-content:flex-end;
+    }
+}
+

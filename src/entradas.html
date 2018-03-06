@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Entradas</title>
+
+</head>
+
+<body>
+
+        @import "header.html"
+
+<center>
+        <div class="alinear2">
+            <img class="image-title" width="1000" height="250" src="./img/png.png" alt="No encuentro la imagen">
+        </div>
+
+</center>
+
+<br /><br />
+
+<center>
+
+    <form novalidate class="form">
+    
+    
+       <!-- <div class="ui-status error">
+            Se ha procudido un error
+        </div>
+    
+    
+    
+        <div class="ui-status loading">
+            Guardando petición
+        </div>-->
+    
+    
+    
+        <div class="ui-status ideal">
+            <div class="form-control-group">
+                <label for="band">Entrades a reservar:</label>
+                <input type="text" id="band" name="band" 
+                placeholder="1, 2, 3..." required> 
+            </div>
+            <div class="form-control-group">
+                <label for="artist">Camping a reservar:</label>
+                <input type="text" id="artist" name="artist" 
+                placeholder="1, 2, 3..." required>
+            </div>
+            <div class="form-control-group">
+                <label for="tittle">E-mail:</label>
+                <input type="text" id="tittle" name="tittle" 
+                placeholder="email@gamil.com..." required>
+            </div>
+            <div class="form-control-group">
+                <label for="cover_url">Introduir url...</label>
+                <input type="url" id="cover_url" name="cover_url" 
+                placeholder="http://..." required>
+            </div>
+            <div class="form-control-group">
+                <button>Reserva el teu pack!</button>
+    
+
+    
+    </form>
+    </center>
+
+<br /><br /> 
+
+    <center>
+
+
+        <h3>ENREGISTRA'T PER A COMPRAR LES ENTRADES:</h3>
+        <br /><br />
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            
+            <div id="id01" class="modal">
+              
+              <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <img src="./img/avatar.png" alt="Avatar" class="avatar">
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+    </center>
+            
+            <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+    
+    
+<br /><br />    
+
+<center>
+    <div class="inici">
+    <a href="index.html"><b>INICI</b></a>
+    </div>
+    </center>
+    
+    <br />
+        <center>
+            <p> © 2018 Derechos reservados por <b>Woodstok Festival 1969.</b></p><br />
+        </center>
+        <br /><br /> 
+    </div>
+<center>
+    
+    <p>100% segur, les teves dades están protegides.</p>
+
+
+    
+</div>
+    </center>
+
+        
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "Distunes-B",
+  "version": "1.0.0",
+  "description": "###  1. Descargar este repositorio. ###  2. Abrir el proyecto con Visual Studio Code. ###  3. Ir a *\"Ver\"* del menú superior y seleccionar *\"Terminal integrada\"*. ###  4. Ejecutar el comando:  *npm install*.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fernandCordon@bitbucket.org/fernandCordon/distunes-b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fernandCordon/distunes-b#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-html-import": "0.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.7.2"
+  }
+}

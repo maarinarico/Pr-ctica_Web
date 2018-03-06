@@ -1,0 +1,48 @@
+body {
+    background: $color-less-is-less;
+    font-family: $main-font-family;
+    font-size: $font-size-base;
+    color: $main-text-color;
+
+    padding-top:60px;
+
+
+}
+
+form{
+    padding: 10px;
+
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: $font-size-small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    margin: 5px 0 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: $font-size-base;
+    &:focus{
+        outline-color: $form-input-outline-color;
+    }
+}
+
+button {
+    @extend input;
+    background-color: $form-burron-background-color;
+    color: $form-button-font-color;
+    font-weight: bold;
+    &:active {
+        background: lighten($form-burron-background-color, 25%);
+    }
+
+}
